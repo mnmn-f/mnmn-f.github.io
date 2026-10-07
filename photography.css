@@ -1,0 +1,11 @@
+.album-wrapper{max-width:1280px;grid-template-columns:235px minmax(0,1fr);gap:55px}
+.album-wrapper main{min-width:0}.album-wrapper section{margin-bottom:56px}
+.album-wrapper h2{margin-bottom:22px}.gallery{columns:3;column-gap:18px}
+.gallery a{display:block;break-inside:avoid;margin-bottom:18px}.gallery img{display:block;width:100%;height:auto}
+.back-home{display:inline-block;margin-top:14px;padding:7px 14px;border:1px solid #d4dfe6;border-radius:4px;font-size:14px}
+.back-home:hover{background:#f5f8fa;text-decoration:none}
+@media(max-width:1100px) and (min-width:761px){.album-wrapper{gap:32px;grid-template-columns:210px minmax(0,1fr)}.gallery{columns:2}}
+@media(max-width:760px){.album-wrapper{max-width:610px;display:block}.gallery{columns:2;column-gap:14px}.gallery a{margin-bottom:14px}}
+@media(max-width:440px){.gallery{columns:1}}
+
+.gallery.masonry{position:relative;columns:auto}.gallery.masonry a{position:absolute;margin:0}
